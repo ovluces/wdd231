@@ -5,12 +5,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WSS231</title>
+  <meta name="description" content="Ovidio J. Luces M., WDD 231 - , Index">
+  <meta name="author" content="Ovidio J. Luces M.">
   <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/courses.js" defer></script>
 </head>
 
 <body>
-  WSS231
+  <header>
+    <img src="images/bulb-logo.svg" alt="Site Logo" width="512" height="512">
+    <span>Ovidio Luces's Site</span>
+    <button id="ham-btn" class="hamburger"></button>
+  </header>
+  <nav id="nav-bar" class="navigation">
+    <ul>
+      <li class="current"><a href="index.html">Home</a></li>
+      <li><a href="#">Chamber Project</a></li>
+      <li><a href="#">Final Project</a></li>
+    </ul>
+  </nav>
+  <main class="grids">
+    <h1>Home</h1>
+    <section class="card">
+      <h2>About Me</h2>
+      <div>
+        <p>My name is Ovidio J. Luces, I was born in 1975 in Ciudad Bolívar, Venezuela. I still live in Ciudad
+          Bolívar, and I currently work at the Universidad de Oriente as a Systems Programmer for several years now.
+          I served in a rule mission in 1994, in the Maracaibo - Venezuela mission, it was a very special time where I
+          was able to learn a lot about the gospel and I was able to teach many people. In 2013 I obtained a
+          Bachelor's degree in Administration with a
+          mention in Computer Science. I am currently studying at BYU-PATHWAY to update my knowledge.</p>
+
+      </div>
+
+    </section>
+
+    <section class="card">
+      <h2>Student Photo</h2>
+      <div><img src="images/profile.jpg" alt="Ovidio J. Luces" width="200" height="239"></div>
+    </section>
+
+    <section class="card all-columns">
+      <h2>Web Certificate Courses</h2>
+      <nav>
+        <ul class="courses">
+          <li><a href="#" id="all">All Courses</a></li>
+          <li><a href="#" id="wdd">WDD Courses</a></li>
+          <li><a href="#" id="cse">CSE Courses</a></li>
+        </ul>
+      </nav>
+
+      <div class="courses-list">
+        <p>CSE131</p>
+        <p>WDD131</p>
+        <p>WDD130</p>
+        <p>WDD231</p>
+      </div>
+      <p class="credits">The total of credits of course listed above is XX</p>
+    </section>
+  </main>
+  <footer>
+    <div class="social">
+      <a href="" target="_blank"><img src="images/linkedin.svg" alt="Linkedin" width="16" height="16"></a>
+      <a href="" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
+      <a href="" target="_blank"><img src="images/twitter-x.svg" alt="Twitter - X" width="16" height="16"></a>
+    </div>
+    <p>&copy; <span id="currentyear"> </span> -
+      <span>Ovidio J. Luces M. - Venezuela - Bolivar</span>
+    </p>
+    <p id="lastModified" class="alternative-color">
+    </p>
+  </footer>
+
 
 </body>
 
