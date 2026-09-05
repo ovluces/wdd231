@@ -87,13 +87,14 @@ header span {
 .grids {
   /* display: grid; */
   grid-template-columns: 1fr;
+  margin: 0 10px;
   /* grid-gap: 20px; */
 }
 
 .grids h1 {
   grid-column: 1 / 3;
   /* font-size: 2rem; */
-  margin-left: 10px;
+
   /* display: block; */
   /* text-align: left; */
   /* align-content: start; */
