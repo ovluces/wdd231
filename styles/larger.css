@@ -33,6 +33,10 @@
     border: none;
   }
 
+  .card {
+    margin-top: 0;
+  }
+
   .grids {
     display: grid;
     grid-template-columns: 1fr;
@@ -46,6 +50,10 @@
     justify-content: flex-start;
     gap: 20px;
     text-align: center;
+  }
+
+  .courses-list section {
+    margin-top: 0;
   }
 
   .courses-list section {
