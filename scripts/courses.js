@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -87,18 +87,24 @@ const cseLink = document.querySelector("#cse");
 allLink.addEventListener(
     "click", () => {
         createCourseCard(courses);
-        // document.getElementById('filterType').innerHTML = "Home";
+        allLink.classList.add('currentCourse');
+        wddLink.classList.remove('currentCourse');
+        cseLink.classList.remove('currentCourse');
     });
 
 wddLink.addEventListener(
     "click", () => {
         createCourseCard(courses.filter(course => course.subject == "WDD"));
-        // document.getElementById('filterType').innerHTML = "Old";
+        allLink.classList.remove('currentCourse');
+        wddLink.classList.add('currentCourse');
+        cseLink.classList.remove('currentCourse');
     });
 cseLink.addEventListener(
     "click", () => {
         createCourseCard(courses.filter(course => course.subject == "CSE"));
-        // document.getElementById('filterType').innerHTML = "Old";
+        allLink.classList.remove('currentCourse');
+        wddLink.classList.remove('currentCourse');
+        cseLink.classList.add('currentCourse');
     });
 
 
@@ -110,44 +116,21 @@ function createCourseCard(filteredCourses) {
     let totalCredits = 0;
     filteredCourses.forEach(course => {
         let card = document.createElement("section");
-        // let datos = document.createElement("div")
-        // let name = document.createElement("h3");
-        let subjectNumber = document.createElement("p");
-        // let number = document.createElement("p");
+        let subjectNumber = document.createElement("h3");
         let courseName = document.createElement("p");
         let credits = document.createElement("p");
         if (course.completed) {
-            card.classList.add('completed');
+            subjectNumber.classList.add('completed');
         }
 
-
-        // let area = document.createElement("p");
-        // let img = document.createElement("img");
-
         card.classList.add('ficha');
-        // card.classList.add('hover');
         subjectNumber.textContent = course.subject + "-" + course.number;
-        // number.textContent = course.number;
         courseName.textContent = course.title;
         credits.textContent = "Credits: " + course.credits;
         totalCredits = totalCredits + course.credits;
-        // location.innerHTML = `<span class="label">Location:</span> ${temple.location}`;
-        // dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
-        // area.innerHTML = `<span class="label">Size:</span> ${temple.area} sq ft`;
-        // img.setAttribute("src", temple.imageUrl);
-        // img.setAttribute("alt", `${temple.templeName} Temple`);
-        // img.setAttribute("loading", "lazy");
-
-
-        // datos.appendChild(courseName);
-        // datos.appendChild(location);
-        // datos.appendChild(dedication);
-        // datos.appendChild(area);
         card.appendChild(subjectNumber);
         card.appendChild(courseName);
         card.appendChild(credits);
-        // card.appendChild(number);
-        // card.appendChild(img);
         document.querySelector(".courses-list").appendChild(card);
         document.querySelector(".credits").innerHTML = `The total of credits of course listed above is ${totalCredits}`;
     });

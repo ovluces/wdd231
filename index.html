@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script src="scripts/navigation.js" defer></script>
   <script src="scripts/getdates.js" defer></script>
   <script src="scripts/courses.js" defer></script>
@@ -17,7 +20,7 @@
 
 <body>
   <header>
-    <img src="images/bulb-logo.svg" alt="Site Logo" width="512" height="512">
+    <img src="images/bulb-logo.svg" alt="Site Logo" width="48" height="48">
     <span>Ovidio Luces's Site</span>
     <button id="ham-btn" class="hamburger"></button>
   </header>
@@ -52,11 +55,11 @@
     <section class="card all-columns">
       <h2>Web Certificate Courses</h2>
       <nav>
-        <ul class="courses">
-          <li><a href="#" id="all">All Courses</a></li>
-          <li><a href="#" id="wdd">WDD Courses</a></li>
-          <li><a href="#" id="cse">CSE Courses</a></li>
-        </ul>
+        <div class="courses">
+          <a href="#" id="all" class="currentCourse">All Courses</a>
+          <a href="#" id="wdd">WDD Courses</a>
+          <a href="#" id="cse">CSE Courses</a>
+        </div>
       </nav>
 
       <div class="courses-list">
@@ -65,6 +68,7 @@
         <p>WDD130</p>
         <p>WDD231</p>
       </div>
+      <p> <span class="completed"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Completed course</p>
       <p class="credits">The total of credits of course listed above is XX</p>
     </section>
   </main>

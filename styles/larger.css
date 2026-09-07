@@ -10,7 +10,10 @@
 
   header {
     grid-template-columns: 24px auto;
-    /* padding: 0 10px; */
+  }
+
+  header span {
+    font-size: 2rem;
   }
 
   .hamburger {
@@ -19,7 +22,6 @@
 
   .navigation {
     display: block;
-    padding: 0 10px;
     border-bottom: solid 1px #eee;
   }
 
@@ -37,9 +39,16 @@
     grid-gap: 20px;
   }
 
+
   .courses-list {
     display: flex;
-    column-gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
     text-align: center;
+  }
+
+  .courses-list section {
+    width: calc((100% - 60px) / 4);
   }
 }
