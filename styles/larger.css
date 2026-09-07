@@ -22,7 +22,7 @@
 
   .navigation {
     display: block;
-    border-bottom: solid 1px #eee;
+    border-bottom: solid 1px var(--color5);
   }
 
   .navigation ul {

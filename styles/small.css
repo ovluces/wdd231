@@ -33,7 +33,6 @@ header img {
   display: block;
   width: 100%;
   height: auto;
-  /* padding-bottom: 4px; */
 }
 
 header span {
@@ -93,7 +92,6 @@ header span {
 /*----main-----*/
 .grids {
   grid-template-columns: 1fr;
-  /* margin: 0 10px; */
   max-width: 1200px;
   margin: 0 auto;
 }
