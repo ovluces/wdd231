@@ -1,9 +1,9 @@
 :root {
-  --color1: #052a50;
-  --color2: #ffffff;
-  --color3: #393939;
-  --color4: #F29C1F;
-  --color5: #dddddd;
+  --color1: rgb(5, 42, 80);
+  --color2: rgb(255, 255, 255);
+  --color3: rgb(57, 57, 57);
+  --color4: rgb(242, 156, 31);
+  --color5: rgb(221, 221, 221);
 }
 
 /*----------------Site Wide--------*/
