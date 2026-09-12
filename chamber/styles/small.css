@@ -139,8 +139,6 @@ header span {
       height: auto;
     }
 
-    ;
-
     &>* {
       margin: 0.1rem;
     }
