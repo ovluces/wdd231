@@ -143,9 +143,6 @@ header span {
 }
 
 
-.grid section &>* {
-  margin: 0.1rem;
-}
 
 .grid section img {
   width: 100%;
@@ -166,9 +163,6 @@ header span {
   padding: 0.25rem;
 }
 
-.list section &>* {
-  margin: 0 1rem;
-}
 
 .list section div {
   display: none;
@@ -182,7 +176,7 @@ header span {
   font-size: 1rem;
 }
 
-.list section &:nth-child(even) {
+.list section:nth-child(even) {
   background-color: #bbb;
 }
 
