@@ -4,15 +4,22 @@
   main,
   footer {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1rem;
   }
 
   header {
+    display: flex;
     grid-template-columns: 24px auto;
   }
 
   header span {
-    font-size: 2rem;
+    font-size: clamp(1rem, 1vw + 1.5rem, 3rem);
   }
 
   .hamburger {
@@ -22,7 +29,6 @@
   .navigation {
     display: block;
     margin-left: auto;
-    /* border-bottom: solid 1px var(--color5); */
   }
 
   .navigation ul {
@@ -36,5 +42,19 @@
   .card {
     margin-top: 0;
   }
+
+  .list {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+  .list section,
+  .list h3,
+  .list p,
+  .list a {
+    margin: 0;
+    padding: 0.2rem 1rem;
+  }
+
 
 }

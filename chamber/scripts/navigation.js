@@ -1,11 +1,13 @@
 const navButtom = document.querySelector('#ham-btn');
 const navLinks = document.querySelector('#nav-bar');
+const header = document.querySelector('header');
 
 //Togle the show class off and on
 
 navButtom.addEventListener('click', () => {
   navButtom.classList.toggle('show');
   navLinks.classList.toggle('show');
+  header.classList.toggle('show');
 });
 
 const gridLink = document.querySelector("#grid");

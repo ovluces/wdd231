@@ -10,7 +10,7 @@
         "country": "Venezuela",
         "zip": "8001"
       },
-      "companyPhoneNumber": "-",
+      "companyPhoneNumber": "+58 0285 6585784",
       "companyWebsiteURL": "https://multimax.com.ve/tiendas/multimax-bolivar/multimax-ciudad-bolivar/",
       "imageFileName": "images/multimax.png",
       "membershiplevel": 1,
@@ -130,7 +130,7 @@
     },
     {
       "companyId": "1009",
-      "companyName": "Forum SuperMayorista",
+      "companyName": "Forum Super-Mayorista",
       "companyAddresses": {
         "street": "C.C San Francisco, Av. Manuel Marmion",
         "city": "Ciudad Bolívar",

@@ -1,14 +1,9 @@
 :root {
-  --primaryColor: rgb(5, 42, 80);
-  --secondaryColor: rgb(5, 42, 80);
-  --backgroundColor: rgb(5, 42, 80);
+  --primaryColor: rgb(221, 221, 221);
+  --secondaryColor: rgb(57, 57, 57);
+  --terciaryColor: rgb(242, 156, 31);
+  --backgroundColor: rgb(255, 255, 255);
   --textColor: rgb(5, 42, 80);
-
-  --color1: rgb(5, 42, 80);
-  --color2: rgb(255, 255, 255);
-  --color3: rgb(57, 57, 57);
-  --color4: rgb(242, 156, 31);
-  --color5: rgb(221, 221, 221);
 }
 
 /*----------------Site Wide--------*/
@@ -24,12 +19,12 @@ a:visited {
 
 /*---------------------------Header*/
 header {
-  display: flex;
-  flex-wrap: nowrap;
-  /* grid-template-columns: 24px auto 44px; */
-  padding: 5px 0 5px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 8px;
   align-items: center;
-  border-bottom: solid 1px var(--color3);
+  border-bottom: solid 1px var(--secondaryColor);
+  background-color: var(--primaryColor);
   gap: 8px;
   max-width: 1200px;
   margin: 0 auto;
@@ -42,8 +37,8 @@ header img {
 }
 
 header span {
-  font-size: 1.6rem;
-  color: var(--color1);
+  font-size: clamp(1rem, 1vw + 1rem, 3rem);
+  color: var(--textColor);
 }
 
 /*-----------------------Hamburguer --------------*/
@@ -51,23 +46,26 @@ header span {
   background: none;
   border: none;
   font-size: 2rem;
-  color: var(--color1);
+  color: var(--textColor);
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
 }
 
 .directory {
   background: none;
   border: none;
   font-size: 2rem;
-  color: var(--color1);
+  color: var(--textColor);
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
+  text-align: center;
 }
 
 .hamburger::before {
   content: "\2630";
+
 }
 
 .hamburger.show::before {
@@ -79,7 +77,12 @@ header span {
   display: none;
 }
 
+header.show {
+  grid-template-columns: auto auto;
+}
+
 .navigation.show {
+
   display: block;
 }
 
@@ -92,22 +95,20 @@ header span {
 .navigation a {
   display: block;
   padding: .8rem 10px;
-  color: var(--color1);
+  color: var(--textColor);
   text-decoration: none;
-  border-bottom: solid 1px var(--color5);
 }
 
 .navigation li.current {
-  background-color: var(--color5);
+  background-color: var(--backgroundColor);
 }
 
 .navigation a:hover {
-  background-color: var(--color4);
+  background-color: var(--terciaryColor);
 }
 
 /*----main-----*/
 .main {
-  /* grid-template-columns: 1fr; */
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -116,33 +117,30 @@ header span {
   display: block;
   padding: 3px;
   justify-self: center;
-  border: 1px solid #fff;
-  box-shadow: 0 0 1rem #555;
+  border: 1px solid var(--backgroundColor);
+  box-shadow: 0 0 1rem var(--secondaryColor);
   width: 200px;
   height: 200px;
   align-content: center;
 }
 
-
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: stretch;
-  grid-gap: 5px;
-  /* align-items: start; */
 }
 
 .grid section {
+  margin: 10px;
+  padding: 20px 10px;
   text-align: center;
-  border: 1px solid green;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 0 20px 0 10px;
 }
 
 .grid section div {
   display: block;
 }
-
-
 
 .grid section img {
   width: 100%;
@@ -153,16 +151,20 @@ header span {
 .list {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.5rem;
 
 }
 
 .list section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: start;
   margin: 0;
-  padding: 0.25rem;
+  padding: 0.1rem;
+  border-top: 1px solid var(--secondaryColor);
 }
-
 
 .list section div {
   display: none;
@@ -172,28 +174,44 @@ header span {
   display: none;
 }
 
-.list section h3 {
-  font-size: 1rem;
+.list section h3,
+.list section a,
+.list section p {
+  margin: 0;
+  padding: 0.1rem 0.3rem;
 }
 
+
 .list section:nth-child(even) {
-  background-color: #bbb;
+  background-color: var(--primaryColor);
 }
 
 
 .card {
-  border: var(--color1) 1px solid;
+  border: var(--textColor) 1px solid;
   border-radius: 8px;
-  background-color: var(--color2);
+  background-color: var(--backgroundColor);
   overflow: hidden;
   margin-top: 12px;
 }
 
 /*----Footer----*/
 footer {
-  background-color: var(--color5);
+  display: block;
+
+  background-color: var(--primaryColor);
   padding: 1rem 10px;
   text-align: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+footer div {
+  margin: 10px 0;
+}
+
+footer p {
+  margin: 0;
 }
 
 .social {
@@ -209,7 +227,7 @@ footer {
   align-items: center;
   width: 44px;
   height: 44px;
-  border: solid 1px var(--color4);
+  border: solid 1px var(--terciaryColor);
   border-radius: 22px;
 }
 
@@ -219,5 +237,5 @@ footer {
 }
 
 .social a:hover {
-  background-color: var(--color4);
+  background-color: var(--terciaryColor);
 }
