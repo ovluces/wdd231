@@ -6,7 +6,7 @@
   --textColor: rgb(5, 42, 80);
 }
 
-/*----------------Site Wide--------*/
+/*----------------Site Wide---------*/
 * {
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
@@ -17,7 +17,7 @@ a:visited {
   color: inherit;
 }
 
-/*---------------------------Header*/
+/*---------------------------Header------------------*/
 header {
   display: grid;
   grid-template-columns: auto auto auto auto;
