@@ -147,16 +147,6 @@ header span {
 
 }
 
-.contenedorImagen {
-  padding: 3px;
-  justify-self: center;
-  border: 1px solid #fff;
-  box-shadow: 0 0 1rem #555;
-  width: 200px;
-  height: 200px;
-  align-content: center;
-}
-
 .list {
   display: flex;
   flex-direction: column;
