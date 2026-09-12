@@ -28,8 +28,8 @@ const displayData = (datos) => {
     image.setAttribute('src', dato.imageFileName);
     image.setAttribute('alt', `Portrait of ${dato.companyName}`);
     image.setAttribute('loading', 'lazy');
-    image.setAttribute('width', '150');
-    image.setAttribute('height', '150');
+    image.setAttribute('width', '15');
+    image.setAttribute('height', '15');
     imageContainer.classList.add('contenedorImagen');
     imageContainer.appendChild(image);
     companyWebsiteURL.setAttribute('href', dato.companyWebsiteURL);
