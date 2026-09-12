@@ -123,10 +123,7 @@ header span {
   align-content: center;
 }
 
-.grid section img {
-  width: 100%;
-  height: auto;
-}
+
 
 .grid {
   display: grid;
@@ -134,58 +131,61 @@ header span {
   align-items: stretch;
   grid-gap: 5px;
   /* align-items: start; */
+}
 
-  section {
-    text-align: center;
-    border: 1px solid green;
+.grid section {
+  text-align: center;
+  border: 1px solid green;
+}
 
-    div {
-      display: block;
-    }
-
-    img {
-      display: block;
-    }
-
-    &>* {
-      margin: 0.1rem;
-    }
-  }
+.grid section div {
+  display: block;
+}
 
 
+.grid section &>* {
+  margin: 0.1rem;
+}
+
+.grid section img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .list {
   display: flex;
   flex-direction: column;
 
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0;
-    padding: 0.25rem;
-
-    &>* {
-      margin: 0 1rem;
-    }
-
-    div {
-      display: none;
-    }
-
-    img {
-      display: none;
-    }
-
-    h3 {
-      font-size: 1rem;
-    }
-
-    &:nth-child(even) {
-      background-color: #bbb;
-    }
-  }
 }
+
+.list section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.list section &>* {
+  margin: 0 1rem;
+}
+
+.list section div {
+  display: none;
+}
+
+.list section img {
+  display: none;
+}
+
+.list section h3 {
+  font-size: 1rem;
+}
+
+.list section &:nth-child(even) {
+  background-color: #bbb;
+}
+
 
 .card {
   border: var(--color1) 1px solid;
