@@ -136,6 +136,7 @@ header.show {
   text-align: center;
   border: 1px solid var(--secondaryColor);
   border-radius: 0 20px 0 10px;
+  background-color: var(--backgroundColor);
 }
 
 .grid section div {
@@ -164,6 +165,7 @@ header.show {
   margin: 0;
   padding: 0.1rem;
   border-top: 1px solid var(--secondaryColor);
+  background-color: var(--backgroundColor);
 }
 
 .list section div {
@@ -190,7 +192,7 @@ header.show {
 .card {
   border: var(--textColor) 1px solid;
   border-radius: 8px;
-  background-color: var(--backgroundColor);
+  background-color: var(--primaryColor);
   overflow: hidden;
   margin-top: 12px;
 }
