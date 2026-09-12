@@ -1,0 +1,62 @@
+@media only screen and (min-width: 20rem) {
+
+  header,
+  main,
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header {
+    grid-template-columns: 24px auto;
+  }
+
+  header span {
+    font-size: 2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+    margin-left: auto;
+    /* border-bottom: solid 1px var(--color5); */
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+
+  .navigation a {
+    border: none;
+  }
+
+  .card {
+    margin-top: 0;
+  }
+
+  .gridsx {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+
+  .courses-listx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .courses-listx section {
+    margin-top: 0;
+  }
+
+  .courses-listx section {
+    width: calc((100% - 60px) / 4);
+  }
+}

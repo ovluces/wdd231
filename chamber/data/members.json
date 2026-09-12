@@ -1,0 +1,148 @@
+{
+  "datos": [
+    {
+      "companyId": "1001",
+      "companyName": "Multimax Ciudad Bolívar",
+      "companyAddresses": {
+        "street": "CC Traki, Av. Libertador, calle Los Apamates, sector Medina Angarita",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "-",
+      "companyWebsiteURL": "https://multimax.com.ve/tiendas/multimax-bolivar/multimax-ciudad-bolivar/",
+      "imageFileName": "images/multimax.png",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1002",
+      "companyName": "Supermercado El Diamante",
+      "companyAddresses": {
+        "street": "Av. Germania C/C Andres Bello, C.C. El Diamante",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0285 6328244",
+      "companyWebsiteURL": "https://smeldiamante.com/",
+      "imageFileName": "images/el-diamante.png",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1003",
+      "companyName": "Tiendas Casa Bella",
+      "companyAddresses": {
+        "street": "Paseo Orinoco, Calle Venezuela, frente a Movilnet",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0412 1923612",
+      "companyWebsiteURL": "https://www.instagram.com/casabella_cbo",
+      "imageFileName": "images/1003.jpg",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1004",
+      "companyName": "Districueros El Canguro C.A.",
+      "companyAddresses": {
+        "street": "Calle Venezuela entre Dalla Costa, Edif. Luzitone",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0424 1201091",
+      "companyWebsiteURL": "https://cangurovenezuela.com/punto-canguro/ciudad-bolivar/",
+      "imageFileName": "images/canguro.svg",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1005",
+      "companyName": "Devion",
+      "companyAddresses": {
+        "street": "Av. Maracay Cruce con Av. Upata CC Phenicia Local L-6",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0424 9070906",
+      "companyWebsiteURL": "https://www.devion.com.ve/",
+      "imageFileName": "images/devion.png",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1006",
+      "companyName": "Venezolano de Crédito S.A. Banco Universal",
+      "companyAddresses": {
+        "street": "93 Paseo Orinoco",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0424 7975839",
+      "companyWebsiteURL": "https://www.venezolano.com/oficinas-comerciales/",
+      "imageFileName": "images/venezolano.png",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1007",
+      "companyName": "Copy Llaves Gold C.A",
+      "companyAddresses": {
+        "street": "Av. Bolívar",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0414 8546710",
+      "companyWebsiteURL": "https://www.instagram.com/copyllavesgold/",
+      "imageFileName": "images/copy_llaves.jpg",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1008",
+      "companyName": "Supermarket El Económico",
+      "companyAddresses": {
+        "street": "Avenida 17 de Diciembre",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0424 9703071",
+      "companyWebsiteURL": "https://www.instagram.com/supermarket_el_economico/?hl=es-la",
+      "imageFileName": "images/economico.jpg",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    },
+    {
+      "companyId": "1009",
+      "companyName": "Forum SuperMayorista",
+      "companyAddresses": {
+        "street": "C.C San Francisco, Av. Manuel Marmion",
+        "city": "Ciudad Bolívar",
+        "state": "Bolívar",
+        "country": "Venezuela",
+        "zip": "8001"
+      },
+      "companyPhoneNumber": "+58 0212 6934430",
+      "companyWebsiteURL": "https://forum.com.ve/tiendas/forum-ciudad-bolivar/",
+      "imageFileName": "images/forum.jpg",
+      "membershiplevel": 1,
+      "otherInformation": ""
+    }
+  ]
+}
