@@ -1,22 +1,6 @@
 {
   "datos": [
     {
-      "companyId": "1001",
-      "companyName": "Multimax Ciudad Bolívar",
-      "companyAddresses": {
-        "street": "CC Traki, Av. Libertador, calle Los Apamates, sector Medina Angarita",
-        "city": "Ciudad Bolívar",
-        "state": "Bolívar",
-        "country": "Venezuela",
-        "zip": "8001"
-      },
-      "companyPhoneNumber": "+58 0285 6585784",
-      "companyWebsiteURL": "https://multimax.com.ve/tiendas/multimax-bolivar/multimax-ciudad-bolivar/",
-      "imageFileName": "images/multimax.webp",
-      "membershiplevel": 1,
-      "otherInformation": ""
-    },
-    {
       "companyId": "1002",
       "companyName": "Supermercado El Diamante",
       "companyAddresses": {
@@ -45,22 +29,6 @@
       "companyPhoneNumber": "+58 0412 1923612",
       "companyWebsiteURL": "https://www.instagram.com/casabella_cbo",
       "imageFileName": "images/1003.webp",
-      "membershiplevel": 1,
-      "otherInformation": ""
-    },
-    {
-      "companyId": "1004",
-      "companyName": "Districueros El Canguro C.A.",
-      "companyAddresses": {
-        "street": "Calle Venezuela entre Dalla Costa, Edif. Luzitone",
-        "city": "Ciudad Bolívar",
-        "state": "Bolívar",
-        "country": "Venezuela",
-        "zip": "8001"
-      },
-      "companyPhoneNumber": "+58 0424 1201091",
-      "companyWebsiteURL": "https://cangurovenezuela.com/punto-canguro/ciudad-bolivar/",
-      "imageFileName": "images/canguro.webp",
       "membershiplevel": 1,
       "otherInformation": ""
     },
