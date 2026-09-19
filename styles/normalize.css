@@ -372,3 +372,12 @@ template {
 [hidden] {
   display: none;
 }
+
+/* The comment below is used to
+   disable specific styling */
+/*
+span {
+  color: blue;
+  font-size: 1.5em;
+}
+*/
