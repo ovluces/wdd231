@@ -39,6 +39,23 @@
     border: none;
   }
 
+  .hero p {
+    font-size: 4.5rem;
+    right: 100px;
+  }
+
+  .hero a {
+    font-size: 4rem;
+    bottom: 55px;
+    right: 100px;
+  }
+
+  .hero img {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+  }
+
   .card {
     margin-top: 0;
   }
