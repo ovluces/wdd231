@@ -14,14 +14,17 @@ const gridLink = document.querySelector("#grid");
 const listLink = document.querySelector("#list");
 const display = document.querySelector("article");
 
-gridLink.addEventListener(
-  "click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
-  });
-
-listLink.addEventListener(
-  "click", () => {
-    display.classList.add("list");
-    display.classList.remove("grid");
-  });
+if (gridLink) {
+  gridLink.addEventListener(
+    "click", () => {
+      display.classList.add("grid");
+      display.classList.remove("list");
+    });
+}
+if (listLink) {
+  listLink.addEventListener(
+    "click", () => {
+      display.classList.add("list");
+      display.classList.remove("grid");
+    });
+}
