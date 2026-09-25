@@ -133,5 +133,9 @@ function createCourseCard(filteredCourses) {
         card.appendChild(credits);
         document.querySelector(".courses-list").appendChild(card);
         document.querySelector(".credits").innerHTML = `The total of credits of course listed above is ${totalCredits}`;
+
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
     });
 }
