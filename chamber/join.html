@@ -53,7 +53,7 @@
         <label>First Name*<input type="text" name="fname" autocomplete="given-name" title="First Name" required></label>
         <label>Last Name*<input type="text" name="lname" autocomplete="family-name" title="Last Name" required></label>
         <label>Organizational Title*<input type="text" id="organizationalTitle" name="organization-title"
-            title="Organizational Title" autocomplete="organization-title" required></label>
+            title="Organizational Title" autocomplete="organization-title" pattern="^[A-Za-z\s-]{7,}$" required></label>
         <label>email*<input type="email" name="email" placeholder="someone@email.com" autocomplete="email" title="email"
             required></label>
         <label>Phone*<input type="tel" name="phone" autocomplete="tel" placeholder="1235551234" title="Phone"
