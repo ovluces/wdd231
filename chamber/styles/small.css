@@ -38,7 +38,7 @@ header img {
 }
 
 header span {
-  font-size: clamp(1rem, 1vw + 1rem, 3rem);
+  font-size: clamp(.7rem, 1vw + .7rem, 2.7rem);
   color: var(--textColor);
 }
 
@@ -205,6 +205,33 @@ header.show {
   background-color: var(--backgroundColor);
 }
 
+/* Definición del movimiento con Keyframes */
+@keyframes deslizar {
+  from {
+    /* Empieza fuera de la pantalla a la izquierda (o en 0) */
+    transform: rotate(2deg);
+  }
+
+  to {
+    /* Se desplaza 300 píxeles hacia la derecha */
+
+    transform: rotate(-2deg);
+  }
+}
+
+
+.animated {
+  width: 260px;
+  animation: deslizar .5s 2 ease-in-out;
+  display: flex;
+
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+}
+
 .gridWeather section img {
   /* width: 100%; */
   /* height: auto; */
@@ -303,4 +330,119 @@ footer p {
 
 .social a:hover {
   background-color: var(--terciaryColor);
+}
+
+/* FORM STYLING */
+
+.form {
+  border: 1px solid var(--textColor);
+  /* align-items: center; */
+  /* align-content: center; */
+}
+
+.form fieldset {
+  margin: 2rem auto;
+  border: 1px solid var(--textColor);
+  border-radius: 6px;
+  padding: .5rem 2%;
+  max-width: 450px;
+}
+
+.form legend {
+  color: var(--textColor);
+  padding: 0 .5rem;
+}
+
+.form label {
+  display: block;
+  padding-top: 1rem;
+  color: var(--textColor);
+  font-size: 0.9rem;
+}
+
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form input[type="url"],
+.form input[type="date"],
+.form select,
+.form textarea,
+.form input[type="number"] {
+  background-color: var(--primaryColor);
+  display: block;
+  border: solid 1pz var(--textColor);
+  border-radius: 6px;
+  padding: .75rem;
+  color: var(--textColor);
+  width: 100%;
+  max-width: 400px;
+  appearance: none;
+
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.form input[type="submit"] {
+  display: block;
+  border: none;
+  background-image: linear-gradient(var(--terciaryColor), var(--secondaryColor));
+  color: var(--backgroundColor);
+  border-radius: 6px;
+  padding: .8rem;
+  width: 96%;
+  max-width: 400px;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 4px var(--secondaryColor);
+}
+
+.form input:required {
+  border-right: solid 8px var(--terciaryColor);
+}
+
+.form input:required:valid {
+  border-right: solid 8px var(--secondaryColor);
+
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* Added for better UX */
+}
+
+.close-button:focus {
+  border: none;
+  background: none;
+}
+
+.button {
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: var(--textColor);
+  color: var(--backgroundColor);
+  font-weight: 700;
+  max-height: 50px;
+  padding: 0.75rem 1rem;
+}
+
+.button:hover {
+  background: var(--terciaryColor);
+}
+
+dialog[open] {
+  background-color: var(--terciaryColor);
+  color: var(--textColor);
+  border-radius: 10px;
+  border: 1px solid var(--backgroundColor2);
+  max-width: 350px;
 }

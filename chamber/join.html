@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W02 Assignment: Chamber Join Page</title>
+  <meta name="description" content="Ovidio J. Luces M., W02 Assignment: Chamber Join Page">
+  <meta name="author" content="Ovidio J. Luces M.">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
+
+  <meta property="og:title" content="W02 Assignment: Chamber Join Page">
+  <meta property="og:description" content="Ovidio J. Luces M., W02 Assignment: Chamber Join Page">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://ovluces.github.io/wdd231/chamber/images/url_image.webp">
+  <meta property="og:url" content="https://ovluces.github.io/wdd231/chamber/directory.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Chamber Join Page">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/membership.js" defer></script>
+  <script src="scripts/modal.js" defer></script>
+  <script src="scripts/forms.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/cbo_chamber_commerce.svg" alt="Site Logo" width="96" height="44">
+    <span>Ciudad Bolívar Chamber of Commerce</span>
+    <nav id="nav-bar" class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li class="current"><a href="join.html">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
+    <!-- <span>◐</span> -->
+    <button id="ham-btn" class="hamburger"></button>
+  </header>
+  <main>
+    <h1>Join</h1>
+    <form method="get" action="thankyou.html" id="form" class="form">
+      <fieldset>
+        <legend>Applicant information</legend>
+        <label>First Name*<input type="text" name="fname" autocomplete="given-name" title="First Name" required></label>
+        <label>Last Name*<input type="text" name="lname" autocomplete="family-name" title="Last Name" required></label>
+        <label>Organizational Title*<input type="text" id="organizationalTitle" name="organization-title"
+            title="Organizational Title" required></label>
+        <label>email*<input type="email" name="email" placeholder="someone@email.com" autocomplete="email" title="email"
+            required></label>
+        <label>Phone*<input type="tel" name="phone" autocomplete="tel" placeholder="1235551234" title="Phone"
+            required></label>
+        <label>Business / Organization Name*<input type="text" name="businessName" autocomplete="organization"
+            title="Business / Organization Name" required></label>
+      </fieldset>
+      <fieldset>
+        <legend>Membership Level*</legend>
+        <label><input type="radio" name="membership" value="np" required>NP Membership</label>
+        <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+        <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+        <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Other</legend>
+        <label>Business/Organization's Description
+          <textarea id="descripcion" name="descripcion" title="Business/Organization's Description"></textarea></label>
+        <input type="hidden" name="timestamp" id="timestampField">
+
+      </fieldset>
+      <input type="submit" value="Send Application">
+
+    </form>
+
+    <h2>Membership Level</h2>
+    <article class="gridWeather" id="datos">
+
+      <!-- <div class="courses-list">
+        <p>CSE131</p>
+        <p>WDD131</p>
+        <p>WDD130</p>
+        <p>WDD231</p>
+      </div> -->
+
+
+    </article>
+    <dialog id="course-details"></dialog>
+
+  </main>
+  <footer>
+
+    <div>
+      <p>Ciudad Bolívar Chamber of Commerce</p>
+      <p>Avenida 1</p>
+      <p>infor@cbocomerce.org</p>
+      <p>+58 0285 9959995</p>
+    </div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/ovidio-luces-a3b95a207/" target="_blank"><img src="images/linkedin.svg"
+          alt="Linkedin" width="16" height="16"></a>
+      <a href="https://github.com/ovluces/" target="_blank"><img src="images/github.svg" alt="Github" width="16"
+          height="16"></a>
+      <a href="https://x.com/?lang=es" target="_blank"><img src="images/twitter-x.svg" alt="Twitter - X" width="16"
+          height="16"></a>
+    </div>
+
+    <div>
+      <p>&copy; <span id="currentyear"> </span> -
+        <span>Ovidio J. Luces M. - Venezuela - Bolivar</span>
+      </p>
+      <p id="lastModified" class="alternative-color">
+      </p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
