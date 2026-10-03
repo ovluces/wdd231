@@ -371,7 +371,7 @@ footer p {
 .form input[type="number"] {
   background-color: var(--primaryColor);
   display: block;
-  border: solid 1pz var(--textColor);
+  border: solid 1px var(--textColor);
   border-radius: 6px;
   padding: .75rem;
   color: var(--textColor);
