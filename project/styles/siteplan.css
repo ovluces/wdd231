@@ -1,0 +1,154 @@
+:root {
+  --body-bg-color: rgb(255, 255, 255);
+  --header-bg-color: rgb(26, 63, 45);
+  --header-font-color: rgb(255, 255, 255);
+  --header-font-shadow-color: rgb(255, 255, 255, 100%);
+
+  --paragraphs-bg-color: rgb(246, 239, 221);
+  --paragraphs-font-color: rgb(0, 0, 0);
+
+  --footer-bg-color: rgb(26, 63, 45);
+  --footer-font-color: rgb(255, 255, 255);
+  --footer-font-shadow-color: rgb(255, 255, 255, 100%);
+
+  --h1-bg-color: rgb(71, 48, 30);
+  --h1-font-color: rgb(255, 255, 255, 100%);
+
+  --h2-bg-color: rgb(26, 63, 45);
+  --h2-font-color: rgb(255, 255, 255, 100%);
+
+  --h3-bg-color: rgb(91, 56, 36);
+  --h3-font-color: rgb(255, 255, 255, 100%);
+
+  --h4-bg-color: rgb(57, 95, 51);
+  --h4-font-color: rgb(255, 255, 255, 100%);
+
+  --main-bg: rgb(246, 239, 221);
+  --main-font-color: rgb(26, 63, 45);
+
+  --card-bg-color: rgb(80, 130, 71);
+  --alt-color: rgb(71, 48, 30);
+  --alt-color2: rgb(130, 80, 53);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--body-bg-color);
+  background-image: linear-gradient(var(--body-bg-color), var(--main-bg));
+}
+
+.background {
+  background-color: var(--body-bg-color);
+  color: var(--paragraphs-font-color);
+  background-image: linear-gradient(var(--body-bg-color), var(--main-bg));
+  border: 1px solid black;
+  height: 100px;
+  width: 50%;
+  align-self: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+h1,
+footer {
+  color: var(--h1-font-color);
+  background-color: var(--h1-bg-color);
+  margin: 15px;
+  padding: 15px;
+}
+
+h2 {
+  color: var(--h2-font-color);
+  background-color: var(--h2-bg-color);
+  margin: 15px;
+  padding: 15px;
+  font-size: medium;
+}
+
+h3 {
+  color: var(--h3-font-color);
+  background-color: var(--h3-bg-color);
+  margin: 15px;
+  padding: 15px;
+  font-size: small;
+}
+
+h4 {
+  color: var(--h4-font-color);
+  background-color: var(--h4-bg-color);
+  margin: 15px;
+  padding: 15px;
+  font-size: small;
+}
+
+.p {
+  display: block;
+  color: var(--paragraphs-font-color);
+  background-color: var(--paragraphs-bg-color);
+  /* width: 25%; */
+  min-height: 50px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.colores {
+  color: var(--paragraphs-font-color);
+  display: block;
+  width: 25%;
+  height: 50px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.center {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.color1 {
+  background-color: var(--h4-bg-color);
+  color: var(--paragraphs-font-color);
+}
+
+.color2 {
+  background-color: rgb(26, 63, 45);
+  color: var(--paragraphs-font-color);
+}
+
+.color3 {
+  background-color: rgb(71, 48, 30);
+  color: var(--paragraphs-font-color);
+}
+
+.color4 {
+  background-color: rgb(130, 80, 53);
+  color: var(--paragraphs-font-color);
+}
+
+.color5 {
+  background-color: rgb(246, 239, 221);
+  color: black;
+}
+
+.container {
+  display: block;
+  border: 1px solid black;
+  margin: 15px;
+  /* padding: 5px; */
+}
+
+.card {
+  display: block;
+  /* border: 1px solid black; */
+  margin: 15px;
+  /* padding: 5px; */
+}
