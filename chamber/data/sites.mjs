@@ -4,7 +4,7 @@ export const places = [
     "address": "30 Amor Patrio Street, Ciudad Bolívar 8001, Bolívar",
     "cost": "Free",
     "descripcion": "It is the city's historic heart. It is surrounded by colonial architecture and monuments commemorating Venezuela's struggle for independence.",
-    "url_foto": "/chamber/images/sites/plaza-bolivar.webp"
+    "url_foto": "../images/sites/plaza-bolivar.webp"
   },
   {
     "name": "Mirador Angostura",
