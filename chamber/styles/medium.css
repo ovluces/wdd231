@@ -1,4 +1,4 @@
-@media only screen and (min-width: 20rem) {
+@media only screen and (min-width: 40rem) {
 
   header,
   main,
@@ -71,5 +71,42 @@
   .list a {
     margin: 0;
     padding: 0.2rem 1rem;
+  }
+
+  #allplaces section {
+    grid-template-areas:
+      "photograph name"
+      "photograph description"
+      "photograph address"
+      "button button";
+  }
+
+  #allplaces figure {
+    width: 300px;
+    height: 200px;
+  }
+
+  .hover:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  #allplaces h2 {
+    font-size: large;
+    text-align: start;
+    margin: 1rem;
+  }
+
+
+  #allplaces p {
+    font-size: medium;
+  }
+
+  #allplaces address {
+    font-size: medium;
+  }
+
+
+  .visits {
+    font-size: medium;
   }
 }

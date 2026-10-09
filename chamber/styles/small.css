@@ -432,7 +432,9 @@ footer p {
   color: var(--backgroundColor);
   font-weight: 700;
   max-height: 50px;
+  max-width: 25vh;
   padding: 0.75rem 1rem;
+  justify-self: center;
 }
 
 .button:hover {
@@ -445,4 +447,78 @@ dialog[open] {
   border-radius: 10px;
   border: 1px solid var(--backgroundColor2);
   max-width: 350px;
+}
+
+#allplaces {
+  background-color: var(--backgroundColor);
+}
+
+#allplaces section {
+  margin: 1rem 8px;
+  border: 1px solid var(--textColor);
+  background-color: var(--primaryColor);
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+    "name"
+    "photograph"
+    "description"
+    "address"
+    "button";
+}
+
+#allplaces h2 {
+  font-size: medium;
+  text-align: center;
+  margin: 1.2rem 0 0 0;
+  grid-area: name;
+}
+
+#allplaces figure {
+  margin: 1rem;
+  border: 2px solid var(--textColor);
+  border-radius: 6px;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  grid-area: photograph;
+}
+
+#allplaces img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#allplaces p {
+  margin: 1rem;
+  font-size: small;
+  grid-area: description;
+}
+
+#allplaces address {
+  margin: 1rem;
+  font-size: small;
+  grid-area: address;
+}
+
+#allplaces button {
+  grid-area: button;
+  margin: 1rem;
+}
+
+.hover:hover {
+  /* box-shadow: 0 0 50px #333; */
+}
+
+.visits {
+  display: block;
+  text-align: center;
+  font-size: small;
+  margin: 1rem;
+}
+
+h1 {
+  margin: 1rem 8px;
 }

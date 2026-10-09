@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Plaza Bolívar de Ciudad Bolívar",
+        "direccion": "30 Calle Amor Patrio, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Gratuito",
+        "descripcion": "Es el corazón histórico de la ciudad. Está rodeada de arquitectura colonial y monumentos que conmemoran la gesta independentista de Venezuela.",
+        "url_foto": "https://www.tripadvisor.com.ve/Attractions-g316072-Activities-Ciudad_Bolivar_Guayana_Region.html"
+    },
+    {
+        "nombre": "Mirador Angostura",
+        "direccion": "Entre riberas del Río Orinoco y el Paseo Orinoco, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Gratuito",
+        "descripcion": "Permite apreciar el punto más angosto del majestuoso río Orinoco, la famosa Piedra del Medio (o Orinocómetro) y una vista espectacular del atardecer bolivarense.",
+        "url_foto": "https://es.wikipedia.org/wiki/Ciudad_Bol%C3%ADvar"
+    },
+    {
+        "nombre": "Museo de Arte Moderno Jesús Soto",
+        "direccion": "Avenida Germania, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Acceso económico / colaborativo",
+        "descripcion": "Diseñado en honor al afamado artista cinético Jesús Soto, alberga una impresionante colección de arte moderno y esculturas interactivas de gran valor internacional.",
+        "url_foto": "https://www.tripadvisor.com.ve/Attractions-g316072-Activities-Ciudad_Bolivar_Guayana_Region.html"
+    },
+    {
+        "nombre": "Casa del Congreso de Angostura",
+        "direccion": "Frente a la Plaza Bolívar, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Gratuito (colaboración voluntaria)",
+        "descripcion": "Edificio histórico donde Simón Bolívar pronunció su célebre Discurso de Angostura en 1819 y se sentaron las bases de la Gran Colombia.",
+        "url_foto": "https://www.venezuelatuya.com/guayana/ciudadbolivar.htm"
+    },
+    {
+        "nombre": "Paseo Orinoco",
+        "direccion": "Av. Paseo Orinoco, Ciudad Bolívar, Bolívar",
+        "costo": "Gratuito",
+        "descripcion": "Malecón histórico a la orilla del río Orinoco, ideal para caminar, disfrutar de la brisa, probar la gastronomía local y contemplar el ir y venir de las embarcaciones.",
+        "url_foto": "https://www.tripadvisor.com.ve/Attractions-g316072-Activities-Ciudad_Bolivar_Guayana_Region.html"
+    },
+    {
+        "nombre": "Fortín El Zamuro",
+        "direccion": "Cdad. Bolívar 8001, Bolívar (cima de la colina céntrica)",
+        "costo": "Gratuito",
+        "descripcion": "Pequeña fortificación del siglo XIX que ofrece una vista panorámica de 360 grados de todo el casco antiguo y el río Orinoco.",
+        "url_foto": "https://www.venezuelatuya.com/guayana/ciudadbolivar.htm"
+    },
+    {
+        "nombre": "Casa de San Isidro",
+        "direccion": "Av. Táchira, cruce con Av. 5 de julio, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Entrada libre o módica colaboración",
+        "descripcion": "Antigua hacienda colonial rodeada de jardines donde residió y trabajó el Libertador Simón Bolívar durante los meses en que se redactó el congreso.",
+        "url_foto": "https://www.venezuelatuya.com/guayana/ciudadbolivar.htm"
+    },
+    {
+        "nombre": "Catedral de Ciudad Bolívar",
+        "direccion": "Casco Histórico, frente a la Plaza Bolívar, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Gratuito",
+        "descripcion": "Imponente templo católico de estilo neogótico con característico color ocre, gran valor arquitectónico y hermosos vitrales del siglo XIX.",
+        "url_foto": "https://www.hotellajareal.com/ciudad-bolivar-y-sus-alrededores-un-abanico-de-atracciones-turisticas-para-descubrir/"
+    },
+    {
+        "nombre": "Jardín Botánico del Orinoco",
+        "direccion": "4FR4+7G2, Cdad. Bolívar 8001, Bolívar",
+        "costo": "Entrada libre",
+        "descripcion": "Espacio natural destinado a la preservación de la flora regional de Guayana, ideal para un recorrido en contacto con la naturaleza a las afueras del núcleo urbano.",
+        "url_foto": "https://www.google.com/maps"
+    },
+    {
+        "nombre": "El Puente Angostura",
+        "direccion": "Carretera Troncal 16 (sobre el río Orinoco)",
+        "costo": "Gratuito",
+        "descripcion": "Es el puente colgante más largo de América Latina, una obra monumental de ingeniería inaugurada en 1967 que corona el paisaje del río.",
+        "url_foto": "https://es.wikipedia.org/wiki/Ciudad_Bol%C3%ADvar"
+    }
+]
