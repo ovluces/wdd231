@@ -20,7 +20,7 @@ const displaySitesData = (datos, indices) => {
     description.textContent = `${dato.descripcion}`;
 
     photograph.setAttribute('src', dato.url_foto);
-    photograph.setAttribute('alt', `Portrait of ${dato.siteName}`);
+    photograph.setAttribute('alt', `Portrait of ${dato.name}`);
     photograph.setAttribute('loading', 'lazy');
     photograph.setAttribute('width', '300');
     photograph.setAttribute('height', '200');
