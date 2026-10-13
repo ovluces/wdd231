@@ -1,0 +1,84 @@
+.form {
+  border: 1px solid var(--h2-bg-color);
+  padding: 10px;
+  width: 400px;
+  /* align-self: center; */
+  justify-self: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+
+.form fieldset {
+  margin: 2rem auto;
+  /* border: 1px solid var(--h2-bg-color); */
+  border-radius: 6px;
+  padding: .5rem 2%;
+  max-width: 450px;
+}
+
+.form legend {
+  color: var(--h2-bg-color);
+  padding: 0 .5rem;
+}
+
+.form label {
+  display: block;
+  padding-top: 1rem;
+  color: var(--paragraphs-font-color);
+  font-size: 0.9rem;
+}
+
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form input[type="url"],
+.form input[type="date"],
+.form select,
+.form textarea,
+.form input[type="number"] {
+  background-color: var(--main-bg);
+  display: block;
+  border: solid 1px var(--h2-bg-color);
+  border-radius: 6px;
+  padding: .75rem;
+  color: var(--h2-bg-color);
+  width: 100%;
+  max-width: 400px;
+  appearance: none;
+
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.form input[type="submit"] {
+  display: block;
+  border: none;
+  background-image: var(--body-bg-color);
+  color: var(--backgroundColor);
+  border-radius: 6px;
+  padding: .8rem;
+  width: 80%;
+  max-width: 400px;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 4px var(--footer-bg-color);
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  /* background-image: var(--footer-bg-color); */
+  background: var(--footer-bg-color);
+  color: var(--h2-font-color);
+}
+
+.form input:required {
+  border-right: solid 8px var(--required-font-color);
+}
+
+.form input:required:valid {
+  border-right: solid 8px var(--footer-bg-color);
+
+}

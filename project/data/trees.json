@@ -1,0 +1,94 @@
+{
+  "datos": [
+    { "treeId": "1001",
+      "cientificName": "Tabebuia chrysantha",
+      "comunName": "Araguaney (Venezuela's National Tree)",
+      "imageFileName": "images/araguaney.webp",
+      "otherInformation": "Highly prized for its spectacular bright yellow blooms. It responds well to severe pruning and training, making it a symbolic and beautiful tropical bonsai choice."
+},{
+      "treeId": "1002",
+      "cientificName": "Tabebuia rosea",
+      "comunName": "Apamate",
+      "imageFileName": "images/apamate.webp",
+      "otherInformation": "Similar to the Araguaney, it features beautiful pink or purple flowers. It develops a sturdy trunk relatively quickly and responds great to root reduction."
+},{
+      "treeId": "1003",
+      "cientificName": "Guaiacum officinale",
+      "comunName": "Guayacán",
+      "imageFileName": "images/lignun.webp",
+      "otherInformation": "Famous for having some of the densest, hardest wood in the world. It is highly valued in bonsai for its beautiful blue flowers, naturally small leaves, and striking rough bark texture."
+},{
+      "treeId": "1004",
+      "cientificName": "Swietenia mahagoni",
+      "comunName": "Caoba",
+      "imageFileName": "images/caoba.webp",
+      "otherInformation": "Mahogany trees adapt incredibly well to pot culture. Defoliation techniques easily reduce their compound leaf size, and they naturally form powerful, thick trunks."
+},{
+      "treeId": "1005",
+      "cientificName": "Samanea saman",
+      "comunName": "Samán",
+      "imageFileName": "images/saman.webp",
+      "otherInformation": "Known for its iconic wide umbrella canopy in the Venezuelan llanos. In bonsai form, its delicate mimosa-like leaves close at night or during rainfall, creating a highly dynamic miniature tree."
+},{
+      "treeId": "1006",
+      "cientificName": "Guazuma ulmifolia",
+      "comunName": "Guásimo",
+      "imageFileName": "images/guasimo.webp",
+      "otherInformation": "This native tree has excellent back-budding capabilities, meaning it pushes new growth easily from old wood after aggressive pruning. Its serrated leaves scale down nicely."
+},{
+      "treeId": "1007",
+      "cientificName": "Caesalpinia coriaria",
+      "comunName": "Dividive",
+      "imageFileName": "images/divi-divi.webp",
+      "otherInformation": "Famous for its wind-swept shapes in coastal regions like Falcón. Its naturally twisted trunks and tiny leaflets make it an exceptional candidate for the Fukinagashi (windswept) bonsai style."
+},{
+      "treeId": "1008",
+      "cientificName": "Chloroleucon tortum",
+      "comunName": "Espinito / Olivo Negro",
+      "imageFileName": "images/yacare.webp",
+      "otherInformation": "Native to South America and highly popular in Venezuelan bonsai circles. It features a unique, naturally contorted, fluted trunk and compound leaves that fold up at night."
+},{
+      "treeId": "1009",
+      "cientificName": "Amphitecna latifolia",
+      "comunName": "Totumito / Taparo",
+      "imageFileName": "images/amphitecna.webp",
+      "otherInformation": "The Totumito variety is popular due to its compact growth, rugged bark, and high tolerance to wiring and bending."
+},{
+      "treeId": "1010",
+      "cientificName": "Plinia cauliflora",
+      "comunName": "Jabuticaba / Guaperó",
+      "imageFileName": "images/jaboticaba.webp",
+      "otherInformation": "A tropical favorite that thrives in Venezuela. It is famous for cauliflory (producing flowers and purple edible fruits directly on the mature trunk and branches), offering a spectacular look as a miniature."
+},{
+      "treeId": "1011",
+      "cientificName": "Calliandra houstoniana",
+      "comunName": "Cují de Jardín / Clavellina",
+      "imageFileName": "images/caliandra.webp",
+      "otherInformation": "Part of the legume family, it possesses very fine foliage and features beautiful, bright red or pink powderpuff blossoms that stand out sharply on small-scale designs."
+},{
+      "treeId": "1012",
+      "cientificName": "Psidium guajava",
+      "comunName": "Guayabo / Guayaba",
+      "imageFileName": "images/guava.webp",
+      "otherInformation": "Guava trees are excellent for bonsai because of their beautiful peeling bark, exposing a smooth, multicolored trunk beneath. They reduce leaf size efficiently and produce fragrant flowers and miniature fruits."
+},{
+      "treeId": "1013",
+      "cientificName": "Delonix regia",
+      "comunName": "Flamboyán / Acacia",
+      "imageFileName": "images/flanboyan.webp",
+      "otherInformation": "Although originally from Madagascar, it is deeply embedded in the Venezuelan landscape. It requires patience to get the compound leaves to reduce, but rewards the grower with stunning fiery-red umbrella canopies."
+},{
+      "treeId": "1014",
+      "cientificName": "Ficus nymphaeifolia",
+      "comunName": "Matapalo / Ficus Nativo",
+      "imageFileName": "images/ficus.webp",
+      "otherInformation": "Native Venezuelan Ficus species are incredibly resilient. They develop massive surface roots (nebari) and aggressive aerial roots that can wrap around stones, making them perfect for the root-over-rock bonsai style."
+},{
+      "treeId": "1015",
+      "cientificName": "Clusia rosea",
+      "comunName": "Copey",
+      "imageFileName": "images/clusiamajor.webp",
+      "otherInformation": "These thick, glossy-leaved trees are incredibly hardy. The smaller-leafed variety (Clusia minor) is preferred for bonsai, developing thick, interesting trunks and tolerance to low-water conditions."
+}
+  ]
+}

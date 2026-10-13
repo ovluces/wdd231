@@ -1,0 +1,25 @@
+@media only screen and (min-width: 40em) {
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    align-content: flex-end;
+  }
+
+  .navigation a {
+    background-color: var(--navigation-bg-color);
+    color: var(--navigation-font-color);
+  }
+
+  #menu {
+    display: none;
+  }
+
+  h1 {
+
+    height: 4rem;
+
+  }
+}
