@@ -69,6 +69,8 @@ header img {
   margin-top: 5px;
   overflow: hidden;
   border: 1px solid var(--footer-font-color);
+  width: 100px;
+  height: 100px;
 }
 
 
